@@ -1,0 +1,129 @@
+<html>
+
+<head>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap5.min.css" /> -->
+    <link href="/st.css"rel="stylesheet"/>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap5.min.js"></script> -->
+    <title>Data Table</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+<script src="/jquery-3.6.0.js"></script>
+<script src="/logic.js"></script>
+
+
+    
+    
+</head>
+
+<body>
+    <div id="tabledata" class="container">
+    <table id="example" class="table " style="width:100%">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Address</th>
+                <th>Degree</th>
+                <th>Track</th>
+                <th>Courser</th>
+                <th>delete</th>
+                <th>Update</th>
+            </tr>
+        
+        </thead>
+        <tbody>
+            <!-- <tr id="use">
+
+            </tr> -->
+       
+           
+        </tbody>
+    </table>
+    <div class="buttonstyle">
+        <button id="add"  >Add New Sdudent</button><br/><br/>
+     
+    </div>
+
+          </div>
+
+
+
+     
+    
+<!-- //onsubmit="myfunction(); return false;" -->
+<div id="tabform" class="formstyle">
+    <form name="reg" id="formid">
+     <table >
+         <tr>
+             <td><span>Name</span></td>
+               <td><input type="text" name="namestdu" id="namestdu" placeholder="Name"/></td>
+               <td> <span class="error"  id="erorUser"></span> <br/></td>
+         </tr>
+         <tr>
+            
+             <td><span>Age</span></td>
+                 <td><input type="text" name="age" id="age" placeholder="Age"/> </td>
+                 <td> <span class="error" id="erorage"></span><br/></td>
+             
+         </tr>
+         <tr>
+             <td> <span>Address</span></td>
+             <td> <input type="text" name="address" id="address" placeholder="address" /></td>
+             <td> <span  class="error" id="eroraddress"></span><br/></td>
+
+         </tr>
+         <tr>
+             <td> <span>Degree</span></td>
+             <td> <input type="text" name="degree" id="degree" placeholder="degree" /></td>
+             <td><span  class="error" id="erordegree"></span><br/></td>
+         </tr>
+         <tr>
+              <td> <span>Track</span></td>
+              <td><input type="text" name="track" id="track" placeholder="Track" /></td>
+              <td> <span  class="error" id="erortrack"></span><br/></td>
+         </tr>
+         <tr>
+             <td> <span>Courses</span> </td>
+             <td>     <select name="courses" id="courses">    
+                 <!-- <optgroup label="Swedish Cars"> -->
+                  <option value="pleace">Pleace Check Your Courses</option>
+                      <option value=">C#">C#</option>
+                        <option value="JS">JS</option>
+                        <option value="MVC">MVC</option>
+                        <option value="React">React</option></td>
+                        <td>  <span  class="error" id="erorcourse"></span>
+                        </select> </td>
+                        <br/> <br/>
+         </tr>
+        
+       
+     </table>
+   
+     <br/>
+    
+    <input type="button" id="Saving" value="Saving" />
+    <!-- <input type="button" name="button" id="btn" value="Add" > -->
+                  <input type="button"  value="SavingEdit"  id="SavingEdit"  />
+     
+                </form>
+                </div>
+ 
+  <br/><br/><br/><br/><br/><br/><br/><br/>><br/><br/><br/><br/><br/><br/><br/><br/>><br/><br/><br/><br/><br/><br/><br/><br/>
+
+   
+</body>
+
+</html>

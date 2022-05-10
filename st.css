@@ -1,0 +1,110 @@
+
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonstyle{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.formstyle{
+    display: none;
+    margin: 0px;
+    padding: 0px;
+   /* display: flex;
+   justify-content: center;
+   align-items: center; */
+}
+
+
+#add{
+
+    width: 300px;
+    height: 40px;
+    border: 1px soldi rgb(29, 28, 28);
+    border-radius: 0px;
+    text-align: center;
+    background: #ff8161;
+    color: rgb(14, 13, 13);
+}
+ 
+
+
+
+
+.tabform tr{
+    margin: 0px;
+    padding: 0px;
+    width: 50;
+    height: 0px;
+    color: rgb(107, 84, 55);
+}
+
+thead{
+   background-color: #04750a;
+   height: 50px;
+   color: white;
+}
+
+
+
+/* form style */
+
+input[type="text"]{
+    margin-bottom: 15;
+    text-align: start;
+    padding: 10px;
+    height: 30;
+    width: 250;
+    border-radius: 3px;
+    border: 1px soldi rgb(255, 246, 246);
+   
+}
+
+input[type="submit"]{
+    text-align: center;
+    height: 40;
+    width: 250;
+    border: 1px soldi rgb(0, 0, 0);
+    margin-top:  20px;
+    margin-left: 5 ;
+}
+
+select{
+    text-align: start;
+    padding: 10px;
+    height: 40;
+    width: 250;
+    border-radius: 3px;
+    border: 1px soldi rgb(255, 246, 246);
+}
+.error{
+    color: rgb(255, 25, 25);
+    
+    
+}
+span{
+    padding: 10px;
+    font-weight: 700;
+    text-align: start;
+
+}
+#Saving{
+    background-color: rgb(59, 175, 13);
+    width: 250px;
+    height: 40px;
+}
+#SavingEdit{
+    background-color: rgb(255, 72, 0);
+    width: 250px;
+    height: 40px;
+
+
+}

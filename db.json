@@ -1,0 +1,40 @@
+{
+  "student": [
+    {
+      "id": 3,
+      "name": "zyad",
+      "age": 12,
+      "address": "cairo",
+      "degree": 90,
+      "track": "asp.net",
+      "courses": "c#"
+    },
+    {
+      "name": "mohmed",
+      "age": "12",
+      "address": "",
+      "degree": "NaN",
+      "track": "asp.net",
+      "courses": "MVC",
+      "id": 4
+    },
+    {
+      "id": 6,
+      "name": "karem",
+      "age": 12,
+      "address": "alex",
+      "degree": 100,
+      "track": "asp.net",
+      "courses": "c#"
+    },
+    {
+      "name": "test2",
+      "age": "34",
+      "address": "",
+      "degree": "NaN",
+      "track": "ss",
+      "courses": "JS",
+      "id": 8
+    }
+  ]
+}
