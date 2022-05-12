@@ -73,9 +73,9 @@ We use [alMohamady](http://school4dev.blogspot.com/) for versioning. For the ver
 
 ## Authors
 
-* **Ahmed Mohamady** - *Initial work* - [alMohamady](http://school4dev.blogspot.com/)
+* **Abdelaliem Hosny** - *Initial work* 
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/abdohosny1) who participated in this project.
 
 ## License
 
